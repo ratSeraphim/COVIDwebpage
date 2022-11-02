@@ -11,6 +11,9 @@
     transition: all .5s;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 :root{
     --maincolor: #9955da;
@@ -84,7 +87,7 @@ header nav ul li a:hover{
 
 section{
     min-height: 50vh;
-    padding: 3rem 7% 0;
+    padding: 12rem 7% 0;
 }
 
 .btn{
