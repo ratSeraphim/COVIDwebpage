@@ -197,3 +197,32 @@ span{
     color: #444;
     padding: .5rem 0;
 }
+
+#prevent{
+    background: #222;
+}
+
+#prevent .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+#prevent h2{
+    color: #FFF;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+#prevent h2 span{
+    color: #9966cb;
+}
+
+#prevent ul li{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: #eee;
+    padding: .5rem 0;
+}
