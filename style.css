@@ -231,6 +231,7 @@ span{
     font-size: 3rem;
     text-align: center;
     color: #555;
+    margin-bottom: 2rem;
 }
 
 #spread .spread-image{
@@ -242,5 +243,5 @@ span{
 }
 
 #spread{
-    padding: 3rem 0;
+    padding: 3rem 0 0;
 }
