@@ -14,3 +14,105 @@
 :root{
     --maincolor: #9955da;
 }
+
+*::selection{ /*the colour your selections show up as (default is dark blue) */
+    background: var(--maincolor);
+    color: #fff;
+}
+/* makes cool scrollbar !! */
+html::-webkit-scrollbar{
+    width: 1.3rem;
+}
+
+html::-webkit-scrollbar-track{ /*the whole bar */
+    background: #333;
+    border-radius:1rem;
+}
+
+html::-webkit-scrollbar-thumb{ /* scrolly part */
+    background: var(--maincolor);
+    border-radius:1rem;
+}
+
+header{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 2.5rem 7%;
+    /* about positions */
+}
+
+header .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+}
+
+header img{
+    height: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 2.5rem;
+}
+
+header nav ul li a{
+    color: #333;
+    font-size: 1.3rem;
+}
+
+header nav ul li a:hover{
+    color: var(--maincolor);
+    border-bottom: .2rem solid var(--maincolor);
+    border-radius: .5rem;
+    padding: 1rem 0;
+}
+
+section{
+    min-height: 50vh;
+    padding: 3rem 7% 0;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background: var(--maincolor);
+    color: #FFF;
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+.btn:hover{
+    background: #333;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#home .image{
+    flex: 1 1 20rem; /* grow, shrink, base value */
+}
+
+#home .image img{
+    width: 100%;
+}
+
+#home .content{
+    flex: 1 1 30rem;
+}
