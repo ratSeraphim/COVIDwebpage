@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+*{
+    font-family: 'Josefin+Sans', sans-serif;
+    box-sizing: border-box; /* without this, adding padding, margin, etc will ADD to the width we define */
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+
+:root{
+    --maincolor: #9955da;
+}
