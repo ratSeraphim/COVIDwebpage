@@ -99,29 +99,29 @@ section{
     background: #333;
 }
 
-#home{
+#home, #symptoms{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#home .image{
+.image{
     flex: 1 1 20rem; /* grow, shrink, base value */
 }
 
-#home .image img{
+.image img{
     width: 100%;
 }
 
-#home .content{
+.content{
     flex: 1 1 30rem;
     margin-left: 3rem;
 }
 
-#home span{
+span{
     color: var(--maincolor);
-    font-size: 1.5rem;
+
 }
 
 #home h1{
@@ -129,21 +129,18 @@ section{
     font-size: 3rem;
 }
 
-#home p{
+#home p, #symptoms p{
     color: #888;
     font-size: 1.2rem;
     padding: 1rem 0;
 }
 
-#protect h2{
+#protect h2, #symptoms h2{
     font-size: 2rem;
     text-align: center;
     padding: 1rem;
 }
 
-#protect h2 span{
-    color: var(--maincolor);
-}
 
 #protect .box-container{
     display: flex;
@@ -176,4 +173,27 @@ section{
     font-size: 1.4rem;
     color: #666;
     padding: 1rem 0;
+}
+
+#symptoms h2{
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+#symptoms ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+#symptoms ul .two{
+    padding-left: 4.5rem;
+}
+
+#symptoms ul li{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: #444;
+    padding: .5rem 0;
 }
