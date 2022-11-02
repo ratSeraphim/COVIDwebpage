@@ -226,3 +226,21 @@ span{
     color: #eee;
     padding: .5rem 0;
 }
+
+#spread h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #555;
+}
+
+#spread .spread-image{
+    height: 80vh;
+    width: 100%;
+    background: url("images/map.png");
+    background-position: center; 
+    background-size: cover;
+}
+
+#spread{
+    padding: 3rem 0;
+}
