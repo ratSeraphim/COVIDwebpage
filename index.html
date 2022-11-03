@@ -15,7 +15,10 @@
             <img src="images/home-img.png" alt="COVID-19 logo">
             COVID-19
         </div>
-        <nav>
+        
+        <div id="menu" class="fas fa-bars"></div>
+
+        <nav class="nav">
             <ul>
                 <li>
                     <a href="#home">Sākums</a>
@@ -122,5 +125,22 @@
         <h1>Kā COVID-19 <span>izplatījās</span> visā pasaulē?</h1>
         <div class="spread-image"></div>
     </section>
+
+    <!-- FOOTER HERE :] -->
+
+    <script>
+        let menu = document.querySelector('#menu');
+        let navbar = document.querySelector('.nav');
+
+        menu.onclick = () =>{
+            navbar.classList.toggle('nav-toggle');
+            menu.classList.toggle('fa-times');
+        }
+
+        window.onscroll = () =>{
+            navbar.classList.remove('nav-toggle');
+            menu.classList.remove('fa-times');
+        }
+    </script>
 </body>
 </html>
