@@ -385,9 +385,14 @@ footer ul li a{
     color: #ccc;
 }
 
-footer p{
+footer .box p{
     margin: 1rem 0;
     text-align: justify;
+}
+
+footer p{
+    text-align: center;
+    padding: 1rem;
 }
 
 footer ul li{
@@ -396,7 +401,7 @@ footer ul li{
 }
 
 footer ul li a:hover{
-    color: #666;
+    color: var(--maincolor);
 }
 
 footer .fa-solid{
