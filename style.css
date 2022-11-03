@@ -390,7 +390,7 @@ footer .box p{
     text-align: justify;
 }
 
-footer p{
+footer #copyright{
     text-align: center;
     padding: 1rem;
 }
